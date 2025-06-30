@@ -1,0 +1,363 @@
+
+ body {
+      background: #191919;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+       background-image: url(./assets/bg-main.png);
+    }
+
+.main{
+    width: 100%;
+    /* background-color: #191919; */
+
+}
+.main-head{
+    background-image: url(./assets/bh-head.png);
+    height: 140vh;
+    background-repeat: no-repeat;
+    /* height: auto; */
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 162px;
+}
+.header .logo{
+    /* width: 20%; */
+}
+.header .logo img{
+    width: 83px;
+}
+.header .navItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navItems ul{
+    display: flex;
+    color: white;
+    gap: 30px;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* .header .navItems ul li:hover{
+    background-color: #262626;
+    padding: 14px 28px;
+} */
+
+.heroSection{
+    background-color: #1E0C06;
+    color: white;
+    width: 1145px;
+    float: right;
+    border-top-left-radius:43px;
+    border-bottom-left-radius:43px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.heroLeft h1{
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.heroLeft p{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.heroLeft button{
+    background-color: #728BAD;
+    font-size: 30px;
+    color: #F5F5F5;
+    padding: 11px 70px;
+    width: 50%;
+    border-radius: 42px;
+    /* height:56px; */
+}
+.heroRight{
+    display: flex;
+    justify-content: space-between
+    /* flex-direction: column; */
+}
+.heroRight1{
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.heroRight1 img{
+    position: relative;
+    top: 316px;
+}
+.heroRight2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+/* -------section 2------ */
+
+.section2{
+    color: #F5F5F5;
+}
+.sec2-head{
+ width: 746px;
+  margin-left: 243px;
+}
+
+.sec2-head h2{
+    font-size: 90px;
+     font-family: "Montserrat", sans-serif;
+     /* text-align: center; */
+}
+
+.sec2-body{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+.sec2-card{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.sec2-card ul{
+    /* list-style-image: <i class="fa-solid fa-check"></i>; */
+    list-style: none;
+
+}
+
+
+/* ---work section------ */
+.work{
+    color: #F5F5F5;
+}
+
+.work-head h2{
+    font-size: 90px;
+    margin-left: 243px;
+    font-family: "Montserrat", sans-serif;
+}
+
+    
+.swiper {
+      width: 60%;
+      height: 60%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+/* -----advanteges */
+
+.adv{
+      color: #F5F5F5;
+      align-items: center;
+}
+.adv-head{
+   width: 746px;
+  margin-left: 243px;
+}
+
+.adv-head h2{
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+.adv-body{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.adv-left{
+    width: 40%;
+}
+.adv-right{
+    width: 40%;
+}
+.adv-right p{
+    font-size: 30px;
+
+}
+.adv-button{
+     margin: 50px auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.adv-button button{
+    color: #F5F5F5;
+    background-color: #728bad;
+    padding: 11px 70px;
+    border-radius: 42px;
+    font-size: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/* -------about us----- */
+.aboutUs{
+    width: 80%;
+     background-color: #1E0C06;
+    color: white;
+    padding-left: 200px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+   border-top-right-radius:43px;
+    border-bottom-right-radius:43px;
+}
+
+.aboutLeft{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.aboutLeft h2{
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 0.25;
+}
+.aboutLeft p{
+    font-size: 30px;
+}
+.aboutRight{
+    padding: 90px 0;
+    position: relative;
+   
+}
+.aboutRight .img1{
+    position: absolute;
+    top: 2px;
+    right: 122px;
+    /* z-index: 1; */
+}
+
+.aboutRight .img2{
+    z-index: 1000;
+    border: 10px solid #1E0C06;
+    border-radius: 66px;
+    position: relative;
+}
+
+.aboutRight .img3{
+   padding-left: 200px;
+}
+
+/* ---question-- */
+
+.question{
+    width: 95%;
+    margin-top: 100px;
+
+}
+.quesHead{
+    /* float: right; */
+    display: flex;
+   justify-content: flex-end;
+
+}
+.quesHead h2{
+font-size: 90px;
+text-transform: uppercase;
+/* float: right; */
+}
+.quesBody{
+    display: flex;
+    justify-content: space-between;
+}
+.quesLeft{
+    width: 40%;
+    margin-top: 60px;
+}
+
+.quesLeft form{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 30px;
+}
+
+.quesLeft form input,textarea{
+    background: transparent;
+    border: 1.5px solid #728bad;
+     color: #728bad;
+    border-radius:22px ;
+    font-size: 30px;
+    margin-top:20px ;
+    padding: 10px;
+}
+
+.quesLeft form button{
+    margin-top: 30px;
+    color: white;
+    width: 300px;
+    background-color: #728bad;
+    border-radius: 42px;
+    padding: 11px 70px;
+    font-size: 30px;
+}
+.quesRight{
+    width: 50%;
+}
+.quesRight p{
+    font-size: 30px;
+}
+.quesRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ----footer---- */
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #191919;
+     box-shadow: 0 -5px 10px rgba(173, 160, 160, 0.4); 
+}
+
+.footer p{
+    font-size: 40px;
+     padding-left: 10px;
+}
+
+.footer i{
+ 
+  font-size: 30px;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+}
