@@ -44,6 +44,8 @@
     font-family: "Montserrat", sans-serif;
 }
 
+
+
 /* .header .navItems ul li:hover{
     background-color: #262626;
     padding: 14px 28px;
@@ -53,6 +55,7 @@
     background-color: #1E0C06;
     color: white;
     width: 1145px;
+    /* width: 80%; */
     float: right;
     border-top-left-radius:43px;
     border-bottom-left-radius:43px;
@@ -135,9 +138,14 @@
     text-align: center;
 }
 
+.sec2-card h3{
+    font-size: 40px;
+}
+
 .sec2-card ul{
     /* list-style-image: <i class="fa-solid fa-check"></i>; */
     list-style: none;
+    font-size: 30px;
 
 }
 

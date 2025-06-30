@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    /* .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navItems {
+        display: none;
+        width: 100%;
+    }
+
+    .navItems.active {
+        display: block;
+    }
+
+    .navItems ul {
+        flex-direction: column;
+        gap: 15px;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    .navItems ul li {
+        font-size: 16px;
+        color: white;
+    } */
+
+    .heroSection{
+    background-color: #1E0C06;
+    color: white;
+    width: 100%;
+}
+    .heroLeft{
+    width: 100%;
+}
+.heroLeft h1{
+    font-size: 40px;
+}
+}
