@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+<link rel="icon" type="image/png" href="./assets/facicon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-head">
+        <div class="header">
+          <div class="logo">
+           <a href="index.html"> <img src="./assets/logo.png" alt="logo"></a>
+          </div>
+
+          <!-- <div class="hamburger" onclick="toggleMenu()">
+        &#9776;
+    </div> -->
+
+          <div class="navItems" id="navMenu">
+           <ul>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="services.html">Prices for services</a></li>
+  <li><a href="about.html">About us</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+          </div>
+        </div>
+
+
+
+       <!-- --------section our work -->
+
+        <div class="work">
+            <div class="work-head">
+                <h2>OUR WORK</h2>
+            </div>
+
+            <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="assets/modern-wooden-kitchen-interior-steel-kitchen-faucet 2.png"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/modern-wooden-kitchen-interior-steel-kitchen-faucet 2.png"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="assets/modern-wooden-kitchen-interior-steel-kitchen-faucet 2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          
+        </div>
+        </div>
+
+     <!-- ----section 2---- -->
+
+        <div class="section2">
+            <div class="sec2-head">
+                <h2>THE WOOD WE WORK WITH</h2>
+            </div>
+
+            <div class="sec2-body">
+                <div class="sec2-card">
+                    <img src="./assets/wood1.png" alt="">
+                    <h3>Oak</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Durability</li>
+                        <li><i class="fa-solid fa-check"></i>Beautiful texture</li>
+                        <li><i class="fa-solid fa-check"></i>Water resistance</li>
+                        <li><i class="fa-solid fa-xmark"></i>Expensive</li>
+                    </ul>
+                </div>
+
+                <div class="sec2-card">
+                    <img src="./assets/wood2.png" alt="">
+                    <h3>Buk</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Durability</li>
+                        <li><i class="fa-solid fa-xmark"></i></i>Hard to handle</li>
+                    </ul>
+                </div>
+
+                <div class="sec2-card">
+                    <img src="./assets/wood3.png" alt="">
+                    <h3>Ash</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Durability</li>
+                        <li><i class="fa-solid fa-xmark"></i>Hard to handle</li>
+                    </ul>
+                </div>  
+            </div>
+            
+        </div>
+
+
+
+    <!-- ------section question--- -->
+
+                    <div class="question">
+                        <div class="quesHead">
+                            <h2>Any questions?</h2>
+                        </div>
+                        <div class="quesBody">
+
+                            <div class="quesLeft">
+                                <form action="">
+                                    <input type="text" placeholder="Your name">
+                                    <input type="tel" placeholder="You telephone number">
+                                    <textarea placeholder="Your question" rows="5" name="" id=""></textarea>
+                                    <button>Send</button>
+                                </form>
+                            </div>
+                            <div class="quesRight">
+                                <p>Write to us and we will be sure to answer all your questions and give you a comprehensive consultation.</p>
+                                <img src="./assets/ques1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+        <!-- -----footer--- -->
+        <div class="footer">
+          <div><img src="./assets/logo.png" alt="" /></div>
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <p>+420 000 000 000</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Na Plzeňce 1166/0150 00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("navMenu");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
