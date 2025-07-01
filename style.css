@@ -85,6 +85,7 @@
     padding: 11px 70px;
     width: 50%;
     border-radius: 42px;
+    border: 0;
     /* height:56px; */
 }
 .heroRight{
@@ -114,6 +115,7 @@
 
 .section2{
     color: #F5F5F5;
+    margin-top: 1060px;
 }
 .sec2-head{
  width: 746px;
@@ -333,6 +335,7 @@ text-transform: uppercase;
     border-radius: 42px;
     padding: 11px 70px;
     font-size: 30px;
+    border: 0;
 }
 .quesRight{
     width: 50%;
