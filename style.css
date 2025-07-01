@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 162px;
+    font-family: "Montserrat", sans-serif;
 }
 .header .logo{
     /* width: 20%; */
@@ -155,6 +156,7 @@
 /* ---work section------ */
 .work{
     color: #F5F5F5;
+    font-family: "Montserrat", sans-serif;
 }
 
 .work-head h2{
@@ -171,7 +173,6 @@
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #444;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -189,6 +190,7 @@
 .adv{
       color: #F5F5F5;
       align-items: center;
+      font-family: "Montserrat", sans-serif;
 }
 .adv-head{
    width: 746px;
@@ -289,6 +291,7 @@
 .question{
     width: 95%;
     margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
 
 }
 .quesHead{
@@ -357,6 +360,7 @@ text-transform: uppercase;
     align-items: center;
     background-color: #191919;
      box-shadow: 0 -5px 10px rgba(173, 160, 160, 0.4); 
+     font-family: "Montserrat", sans-serif;
 }
 
 .footer p{
