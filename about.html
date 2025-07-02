@@ -27,16 +27,17 @@
   <body>
     <div class="main">
       <div class="main-head">
+
         <div class="header">
           <div class="logo">
             <a href="index.html"> <img src="./assets/logo.png" alt="logo"></a>
           </div>
 
-          <!-- <div class="hamburger" onclick="toggleMenu()">
+          <div class="hamburger" onclick="toggleMenu()">
         &#9776;
-    </div> -->
+    </div>
 
-          <div class="navItems" id="navMenu">
+          <div class="navItems" id="navMenu2">
            <ul>
              <a href="gallery.html"> <li>Gallery</li></a>
              <a href="services.html"> <li>Prices for services</li></a>
@@ -160,10 +161,12 @@
     </script>
 
     <script>
-      function toggleMenu() {
-        const menu = document.getElementById("navMenu");
-        menu.classList.toggle("active");
-      }
+      document.querySelectorAll('#navMenu2 a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('navMenu2').classList.remove('show');
+  });
+});
+
     </script>
   </body>
 </html>

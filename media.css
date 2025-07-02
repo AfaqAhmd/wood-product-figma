@@ -1,44 +1,331 @@
 @media (max-width: 768px) {
-    /* .header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px;
-    }
+   
+  .header-home {
+    flex-direction: row;
+    position: relative;
+    padding: 20px 20px;
+   
+  }
 
-    .hamburger {
-        display: block;
-    }
+  .hamburger {
+    display: block;
+  }
 
-    .navItems {
-        display: none;
-        width: 100%;
-    }
+  .navItems-home {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #191919;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+  }
 
-    .navItems.active {
-        display: block;
-    }
+  .navItems-home ul {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
 
-    .navItems ul {
-        flex-direction: column;
-        gap: 15px;
-        padding-left: 0;
-        margin-top: 10px;
-    }
+  .navItems-home.show {
+    display: flex;
+  }
 
-    .navItems ul li {
-        font-size: 16px;
-        color: white;
-    } */
 
-    .heroSection{
-    background-color: #1E0C06;
-    color: white;
+
+
+  /* home page  */
+  .heroSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroLeft {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.heroLeft h1 {
+  font-size: 40px;
+}
+.heroLeft p {
+  font-size: 20px;
+}
+.heroLeft button {
+  font-size: 25px;
+}
+.heroRight {
+    margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.heroRight1 {
+  display: flex;
+  flex-direction: column;
+}
+.heroRight1 img {
+  position: relative;
+  top: 0px;
+}
+.heroRight2 {
+    gap: 20px;
+}
+
+
+/* -------section 2------ */
+
+.sec2-head {
+ width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.sec2-head h2 {
+  font-size: 40px;
+}
+
+.sec2-body {
+  flex-direction: column;
+}
+.sec2-card {
+  width: 100%;
+}
+
+.sec2-card h3 {
+  font-size: 40px;
+}
+
+.sec2-card ul {
+  font-size: 25px;
+}
+
+
+/* ---work section------ */
+.work {
+ margin-top: 50px;
+}
+.work-head{
+    text-align: center;
+    margin: 40px 0;
+}
+.work-head h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.swiper {
+  width: 90%;
+  height: 60%;
+}
+
+/* -----advanteges */
+
+.adv {
+  margin-top: 60px;
+}
+.adv-head {
+  width: 100%;
+ margin: 0;
+ text-align: center;
+}
+
+.adv-head h2 {
+  font-size: 40px;
+}
+
+.adv-body {
+  width: 90%;
+  /* margin: 0 auto;
+  display: flex;
+  justify-content: space-between; */
+  flex-direction: column;
+}
+.adv-left {
+  width: 100%;
+}
+.adv-left img{
     width: 100%;
 }
-    .heroLeft{
-    width: 100%;
+.adv-right {
+  width: 100%;
 }
-.heroLeft h1{
+.adv-right p {
+  font-size: 25px;
+}
+.adv-button button {
+  padding: 11px 60px;
+  font-size: 25px;
+}
+
+/* -------about us----- */
+.aboutUs {
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.aboutLeft h2 {
+  font-size: 40px;
+}
+.aboutLeft p {
+  font-size: 25px;
+}
+.aboutRight {
+  padding: 90px 0;
+  position: relative;
+}
+.aboutRight .img1 {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+/* ---question-- */
+
+.question {
+  width: 95%;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+.quesHead {
+  /* float: right; */
+  display: flex;
+  justify-content: flex-end;
+}
+.quesHead h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  /* float: right; */
+}
+.quesBody {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.quesLeft {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.quesLeft form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.quesLeft form input,
+textarea {
+  background: transparent;
+  border: 1.5px solid #728bad;
+  color: #728bad;
+  border-radius: 22px;
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.quesLeft form button {
+  font-size: 25px;
+}
+.quesRight {
+  width: 100%;
+  text-align: center;
+}
+.quesRight p {
+  font-size: 25px;
+}
+.quesRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* ----footer---- */
+.footer {
+  padding-top: 30px;
+  flex-direction: column;
+}
+
+.footer p {
+  font-size: 25px;
+}
+
+.footer i {
+  font-size: 25px;
+}
+
+
+/* ---------------------conatact us --------------- */
+
+.contact-sec {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#map {
+  width: 85%;
+}
+
+/*-------------- 404 section ---------- */
+.error-sec{
+    width: 100%;
+    text-align: center;
+}
+
+.error-sec h2{
+    font-size: 100px;
+    line-height: 0;
+}
+
+.error-sec h3{
     font-size: 40px;
+    line-height: 0.1;
 }
+.error-sec p{
+    font-size: 25px;
+}
+
+
+
+
+.header {
+  padding: 20px 20px;
+}
+
+.hamburger {
+    display: block;
+  }
+
+  .navItems {
+    display: none; /* Hide menu by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #191919;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .navItems ul {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .navItems.show {
+    display: flex;
+  }
+
+
 }

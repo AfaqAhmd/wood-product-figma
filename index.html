@@ -20,13 +20,28 @@
     <link rel="stylesheet" href="media.css">
     <style>
 
-.navItems-home a {      
+
+
+
+.navItems-home ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItems-home a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+/* .navItems-home a {      
     color: #f5f5f5;
     text-decoration: none;}
         .main-home {
   width: 100%;
-  /* background-color: #191919; */
-}
+ 
+} */
 
 .main-head-home {
   background-image: url(./assets/bh-head.png);
@@ -60,6 +75,15 @@
   list-style: none;
   font-family: "Montserrat", sans-serif;
 }
+/* Desktop view (default) */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+
 
     </style>
 </head>
@@ -69,23 +93,22 @@
      <div class="main-home">
   <div class="main-head-home">
     <div class="header-home">
-      <div class="logo-home">
-       <a href="index.html"> <img src="./assets/logo.png" alt=""></a>
-      </div>
+  <div class="logo-home">
+    <a href="index.html"><img src="./assets/logo.png" alt=""></a>
+  </div>
 
-      <!-- <div class="hamburger" onclick="toggleMenu()">
-          &#9776;
-      </div> -->
+  <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
 
-      <div class="navItems-home" id="navMenu">
-        <ul>
-             <a href="gallery.html"> <li>Gallery</li></a>
-             <a href="services.html"> <li>Prices for services</li></a>
-             <a href="about.html"> <li>About us</li></a>
-             <a href="contact.html"> <li>Contact</li></a>
-            </ul>
-      </div>
-    </div>
+  <div class="navItems-home" id="navMenu">
+    <ul>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="services.html">Prices for services</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
 
 
 
@@ -200,11 +223,6 @@
                         <img src="./assets/adv-img.png" alt="">
                     </div>
                     <div class="adv-right">
-                        <!-- <ul>
-                            <li>In-house carpentry production</li>
-                            <li>We only treat wood with environmentally friendly and safe products</li>
-                            <li>Prices from the manufacturer, no extra charges</li>
-                        </ul> -->
                         <p>In-house carpentry production</p>
                         <p>We only treat wood with environmentally friendly and safe products</p>
                         <p>Prices from the manufacturer, no extra charges</p>
@@ -282,12 +300,13 @@
       });
     </script>
 
-    <script>
+  <script>
   function toggleMenu() {
-    const menu = document.getElementById("navMenu");
-    menu.classList.toggle("active");
+    const menu = document.getElementById('navMenu');
+    menu.classList.toggle('show');
   }
 </script>
+
 
 </body>
 </html>

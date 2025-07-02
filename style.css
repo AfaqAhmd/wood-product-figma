@@ -25,10 +25,9 @@ body {
   background-color: #1e0c06;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
+   position: relative;
 }
-.header .logo {
-  /* width: 20%; */
-}
+
 .header .logo img {
   width: 83px;
 }
@@ -43,12 +42,12 @@ body {
     text-decoration: none;
 }
 
-.header .navItems ul {
+.navItems ul {
   display: flex;
-  color: white;
   gap: 30px;
   list-style: none;
-  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /* .header .navItems ul li:hover{
@@ -414,4 +413,12 @@ textarea {
 .footer div {
   display: flex;
   align-items: center;
+}
+
+/* Hamburger hidden on desktop */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
 }
