@@ -161,11 +161,10 @@
     </script>
 
     <script>
-      document.querySelectorAll('#navMenu2 a').forEach(link => {
-  link.addEventListener('click', () => {
-    document.getElementById('navMenu2').classList.remove('show');
-  });
-});
+      function toggleMenu() {
+    const menu = document.getElementById('navMenu2');
+    menu.classList.toggle('show');
+  }
 
     </script>
   </body>
